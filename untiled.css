@@ -1,0 +1,88 @@
+/* Resetare stil implicit */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stilizare pentru bara de navigare */
+.navbar {
+    background-color: #0a3eeb; /* Culoare de fundal pentru bara de navigare */
+    color: #368b05; /* Culoare text pentru bara de navigare */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo h1 {
+    font-size: 45px; /* Mărime font pentru logo */
+}
+
+.menu ul {
+    list-style-type: none; /* Eliminarea marcatorului de listă */
+}
+
+.menu ul li {
+    display: inline-block; /* Așezare pe același nivel */
+    margin-right: 20px; /* Spațiu între elementele meniului */
+}
+
+.menu ul li a {
+    color: #dbd7d7; /* Culoare text pentru link-uri */
+    text-decoration: none; /* Eliminarea sublinierii link-urilor */
+}
+
+.signup a {
+    background-color: #fdf9fc; /* Culoare de fundal pentru buton */
+    color: #333; /* Culoare text pentru buton */
+    padding: 10px 20px; /* Spațiu între text și marginea butonului */
+    border-radius: 15px; /* Rotunjire margini buton */
+    text-decoration: none; /* Eliminarea sublinierii */
+}
+
+.signup a:hover {
+    background-color: #000000; /* Culoare de fundal pentru buton la hover */
+}
+
+/* Stilizare pentru corpul paginii */
+.body {
+    padding: 50px; /* Spațiu interior */
+}
+
+.heading h1 {
+    font-size: 36px; /* Mărime font pentru titlu */
+    margin-bottom: 20px; /* Spațiu între titlu și text */
+}
+
+.heading p {
+    font-size: 25px; /* Mărime font pentru text */
+    margin-bottom: 20px; /* Spațiu între text și elementele următoare */
+}
+
+.tours {
+    display: flex;
+    justify-content: space-between;
+}
+
+.places {
+    flex-basis: 30%; /* Lățimea fiecărui element */
+    text-align: center; /* Aliniere text */
+}
+
+.places h2 {
+    font-size: 24px; /* Mărime font pentru titlul locului */
+    margin-bottom: 10px; /* Spațiu între titlu și link */
+}
+
+.places a {
+    background-color: #333; /* Culoare de fundal pentru link */
+    color: #02d68f; /* Culoare text pentru link */
+    padding: 10px 20px; /* Spațiu între text și marginea link-ului */
+    border-radius: 5px; /* Rotunjire margini link */
+    text-decoration: none; /* Eliminarea sublinierii link-ului */
+}
+
+.places a:hover {
+    background-color: #555; /* Culoare de fundal pentru link la hover */
+}
