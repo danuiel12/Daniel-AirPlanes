@@ -7,7 +7,7 @@
 
 /* Stilizare pentru bara de navigare */
 .navbar {
-    background-color: #0a3eeb; /* Culoare de fundal pentru bara de navigare */
+    background-color: #eb0a0a; /* Culoare de fundal pentru bara de navigare */
     color: #368b05; /* Culoare text pentru bara de navigare */
     display: flex;
     justify-content: space-between;
